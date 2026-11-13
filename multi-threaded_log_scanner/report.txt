@@ -1,0 +1,13 @@
+log_12.log: 0 matching lines out of 220753 (thread 2)
+log_2.log: 0 matching lines out of 441506 (thread 4)
+log_11.log: 0 matching lines out of 478298 (thread 1)
+log_5.log: 0 matching lines out of 423110 (thread 7)
+log_4.log: 0 matching lines out of 386318 (thread 6)
+log_1.log: 0 matching lines out of 699051 (thread 3)
+log_10.log: 0 matching lines out of 423110 (thread 0)
+log_8.log: 1 matching lines out of 275943 (thread 1)
+log_9.log: 0 matching lines out of 331130 (thread 7)
+log_6.log: 0 matching lines out of 699051 (thread 2)
+log_3.log: 1 matching lines out of 827825 (thread 5)
+log_7.log: 0 matching lines out of 643863 (thread 4)
+Total matching lines across 12 files: 2

@@ -1,0 +1,210 @@
+459476 13:49:35.475394 execve("./pipeline", ["./pipeline"], 0x7ffee57a9150 /* 68 vars */) = 0
+459476 13:49:35.477454 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+459476 13:49:35.477875 close(3)         = 0
+459476 13:49:35.478044 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+459476 13:49:35.478183 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+459476 13:49:35.479252 close(3)         = 0
+459476 13:49:35.480823 pipe2([3, 4], 0) = 0
+459476 13:49:35.480995 pipe2([5, 6], 0) = 0
+459476 13:49:35.481127 pipe2([7, 8], 0) = 0
+459476 13:49:35.481285 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7987f6b6aa10) = 459477
+459476 13:49:35.481737 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+459477 13:49:35.481995 dup2(4, 1 <unfinished ...>
+459476 13:49:35.482067 <... clone resumed>, child_tidptr=0x7987f6b6aa10) = 459478
+459477 13:49:35.482100 <... dup2 resumed>) = 1
+459477 13:49:35.482149 close(3 <unfinished ...>
+459476 13:49:35.482182 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+459477 13:49:35.482230 <... close resumed>) = 0
+459477 13:49:35.482276 close(4)         = 0
+459477 13:49:35.482382 close(5 <unfinished ...>
+459478 13:49:35.482417 dup2(3, 0 <unfinished ...>
+459477 13:49:35.482474 <... close resumed>) = 0
+459476 13:49:35.482508 <... clone resumed>, child_tidptr=0x7987f6b6aa10) = 459479
+459478 13:49:35.482560 <... dup2 resumed>) = 0
+459477 13:49:35.482588 close(6 <unfinished ...>
+459476 13:49:35.482629 close(4 <unfinished ...>
+459478 13:49:35.482698 dup2(6, 1 <unfinished ...>
+459477 13:49:35.482727 <... close resumed>) = 0
+459476 13:49:35.482765 <... close resumed>) = 0
+459478 13:49:35.482791 <... dup2 resumed>) = 1
+459476 13:49:35.482832 close(3 <unfinished ...>
+459479 13:49:35.482858 dup2(5, 0 <unfinished ...>
+459477 13:49:35.482884 close(7 <unfinished ...>
+459476 13:49:35.482928 <... close resumed>) = 0
+459479 13:49:35.482953 <... dup2 resumed>) = 0
+459478 13:49:35.482978 close(3 <unfinished ...>
+459477 13:49:35.483003 <... close resumed>) = 0
+459476 13:49:35.483041 close(6 <unfinished ...>
+459479 13:49:35.483067 dup2(8, 1 <unfinished ...>
+459476 13:49:35.483112 <... close resumed>) = 0
+459478 13:49:35.483137 <... close resumed>) = 0
+459477 13:49:35.483162 close(8 <unfinished ...>
+459479 13:49:35.483187 <... dup2 resumed>) = 1
+459476 13:49:35.483224 close(5 <unfinished ...>
+459477 13:49:35.483253 <... close resumed>) = 0
+459476 13:49:35.483293 <... close resumed>) = 0
+459479 13:49:35.483328 close(3 <unfinished ...>
+459478 13:49:35.483354 close(4 <unfinished ...>
+459476 13:49:35.483394 close(8 <unfinished ...>
+459479 13:49:35.483424 <... close resumed>) = 0
+459477 13:49:35.483450 execve("/home/m0ng00s3/.nvm/versions/node/v22.22.0/bin/cat", ["cat", "/etc/passwd"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459476 13:49:35.483551 <... close resumed>) = 0
+459479 13:49:35.483585 close(4 <unfinished ...>
+459478 13:49:35.483611 <... close resumed>) = 0
+459476 13:49:35.483692 openat(AT_FDCWD, "result.txt", O_WRONLY|O_CREAT|O_TRUNC, 0644 <unfinished ...>
+459479 13:49:35.483775 <... close resumed>) = 0
+459478 13:49:35.483814 close(5 <unfinished ...>
+459477 13:49:35.483841 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459476 13:49:35.484043 <... openat resumed>) = 3
+459479 13:49:35.484075 close(5 <unfinished ...>
+459478 13:49:35.484100 <... close resumed>) = 0
+459476 13:49:35.484141 read(7,  <unfinished ...>
+459479 13:49:35.484167 <... close resumed>) = 0
+459477 13:49:35.484195 execve("/home/m0ng00s3/develop/flutter/bin/cat", ["cat", "/etc/passwd"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.484282 close(6 <unfinished ...>
+459478 13:49:35.484311 close(6 <unfinished ...>
+459479 13:49:35.484347 <... close resumed>) = 0
+459477 13:49:35.484376 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459479 13:49:35.484418 close(7 <unfinished ...>
+459478 13:49:35.484444 <... close resumed>) = 0
+459479 13:49:35.484504 <... close resumed>) = 0
+459477 13:49:35.484538 execve("/home/m0ng00s3/.local/bin/cat", ["cat", "/etc/passwd"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.484700 close(8 <unfinished ...>
+459478 13:49:35.484762 close(7 <unfinished ...>
+459477 13:49:35.484795 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459479 13:49:35.484836 <... close resumed>) = 0
+459477 13:49:35.484875 execve("/home/m0ng00s3/.local/bin/cat", ["cat", "/etc/passwd"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459478 13:49:35.484939 <... close resumed>) = 0
+459479 13:49:35.484984 execve("/home/m0ng00s3/.nvm/versions/node/v22.22.0/bin/sort", ["sort", "-u"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459477 13:49:35.485068 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459478 13:49:35.485101 close(8 <unfinished ...>
+459479 13:49:35.485134 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459477 13:49:35.485170 execve("/usr/local/sbin/cat", ["cat", "/etc/passwd"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.485236 execve("/home/m0ng00s3/develop/flutter/bin/sort", ["sort", "-u"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459478 13:49:35.485290 <... close resumed>) = 0
+459479 13:49:35.485328 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459477 13:49:35.485357 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459479 13:49:35.485392 execve("/home/m0ng00s3/.local/bin/sort", ["sort", "-u"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459477 13:49:35.485453 execve("/usr/local/bin/cat", ["cat", "/etc/passwd"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.485520 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459478 13:49:35.485550 execve("/home/m0ng00s3/.nvm/versions/node/v22.22.0/bin/cut", ["cut", "-d:", "-f7"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.485626 execve("/home/m0ng00s3/.local/bin/sort", ["sort", "-u"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459477 13:49:35.485752 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459479 13:49:35.485806 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459478 13:49:35.485835 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459479 13:49:35.485876 execve("/usr/local/sbin/sort", ["sort", "-u"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459477 13:49:35.485933 execve("/usr/sbin/cat", ["cat", "/etc/passwd"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.485999 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459478 13:49:35.486029 execve("/home/m0ng00s3/develop/flutter/bin/cut", ["cut", "-d:", "-f7"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.486094 execve("/usr/local/bin/sort", ["sort", "-u"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459477 13:49:35.486147 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459479 13:49:35.486188 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459478 13:49:35.486215 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459479 13:49:35.486254 execve("/usr/sbin/sort", ["sort", "-u"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459477 13:49:35.486307 execve("/usr/bin/cat", ["cat", "/etc/passwd"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.486372 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459478 13:49:35.486402 execve("/home/m0ng00s3/.local/bin/cut", ["cut", "-d:", "-f7"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.486462 execve("/usr/bin/sort", ["sort", "-u"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459478 13:49:35.486573 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459478 13:49:35.486692 execve("/home/m0ng00s3/.local/bin/cut", ["cut", "-d:", "-f7"], 0x7fff29f7c738 /* 68 vars */) = -1 ENOENT (No such file or directory)
+459478 13:49:35.487028 execve("/usr/local/sbin/cut", ["cut", "-d:", "-f7"], 0x7fff29f7c738 /* 68 vars */) = -1 ENOENT (No such file or directory)
+459477 13:49:35.487222 <... execve resumed>) = 0
+459478 13:49:35.487295 execve("/usr/local/bin/cut", ["cut", "-d:", "-f7"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.487365 <... execve resumed>) = 0
+459478 13:49:35.487401 <... execve resumed>) = -1 ENOENT (No such file or directory)
+459478 13:49:35.487454 execve("/usr/sbin/cut", ["cut", "-d:", "-f7"], 0x7fff29f7c738 /* 68 vars */) = -1 ENOENT (No such file or directory)
+459478 13:49:35.487595 execve("/usr/bin/cut", ["cut", "-d:", "-f7"], 0x7fff29f7c738 /* 68 vars */ <unfinished ...>
+459479 13:49:35.487946 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+459477 13:49:35.488063 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+459479 13:49:35.488275 close(3)         = 0
+459479 13:49:35.488408 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libcrypto.so.3", O_RDONLY|O_CLOEXEC <unfinished ...>
+459478 13:49:35.488453 <... execve resumed>) = 0
+459477 13:49:35.488481 close(3 <unfinished ...>
+459479 13:49:35.488514 <... openat resumed>) = 3
+459477 13:49:35.488548 <... close resumed>) = 0
+459479 13:49:35.488581 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+459477 13:49:35.488692 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+459477 13:49:35.488802 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+459478 13:49:35.489224 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+459479 13:49:35.489368 close(3)         = 0
+459479 13:49:35.489496 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+459479 13:49:35.489634 read(3,  <unfinished ...>
+459478 13:49:35.489726 close(3 <unfinished ...>
+459479 13:49:35.489772 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+459478 13:49:35.489827 <... close resumed>) = 0
+459478 13:49:35.489930 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+459478 13:49:35.490044 read(3,  <unfinished ...>
+459477 13:49:35.490073 close(3)         = 0
+459478 13:49:35.490141 <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+459479 13:49:35.490791 close(3)         = 0
+459478 13:49:35.491151 close(3)         = 0
+459477 13:49:35.491665 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+459477 13:49:35.492060 close(3)         = 0
+459478 13:49:35.492718 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC <unfinished ...>
+459477 13:49:35.492788 openat(AT_FDCWD, "/etc/passwd", O_RDONLY <unfinished ...>
+459478 13:49:35.492849 <... openat resumed>) = 3
+459477 13:49:35.492884 <... openat resumed>) = 3
+459478 13:49:35.493098 close(3)         = 0
+459477 13:49:35.493219 read(3, "root:x:0:0:root:/root:/bin/bash\n"..., 131072) = 3181
+459477 13:49:35.493372 write(1, "root:x:0:0:root:/root:/bin/bash\n"..., 3181) = 3181
+459477 13:49:35.493487 read(3, "", 131072) = 0
+459477 13:49:35.493735 close(3 <unfinished ...>
+459479 13:49:35.493794 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC <unfinished ...>
+459477 13:49:35.493862 <... close resumed>) = 0
+459479 13:49:35.493903 <... openat resumed>) = 3
+459477 13:49:35.493950 close(1)         = 0
+459478 13:49:35.494042 read(0,  <unfinished ...>
+459477 13:49:35.494068 close(2 <unfinished ...>
+459478 13:49:35.494113 <... read resumed>"root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 3181
+459477 13:49:35.494168 <... close resumed>) = 0
+459479 13:49:35.494207 close(3)         = 0
+459478 13:49:35.494385 read(0, "", 4096) = 0
+459478 13:49:35.494546 close(0)         = 0
+459477 13:49:35.494734 +++ exited with 0 +++
+459476 13:49:35.494786 <... read resumed>0x7fff29f7b5b0, 4096) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+459478 13:49:35.494826 write(1, "/bin/bash\n/usr/sbin/nologin\n/usr"..., 881 <unfinished ...>
+459476 13:49:35.494879 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=459477, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+459478 13:49:35.494930 <... write resumed>) = 881
+459476 13:49:35.494987 read(7,  <unfinished ...>
+459478 13:49:35.495031 close(1)         = 0
+459478 13:49:35.495115 close(2)         = 0
+459478 13:49:35.495665 +++ exited with 0 +++
+459476 13:49:35.495737 <... read resumed>0x7fff29f7b5b0, 4096) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+459476 13:49:35.495843 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=459478, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+459476 13:49:35.495937 read(7,  <unfinished ...>
+459479 13:49:35.497612 read(0, "/bin/bash\n/usr/sbin/nologin\n/usr"..., 131072) = 881
+459479 13:49:35.497797 read(0, "", 126976) = 0
+459479 13:49:35.498071 write(1, "/bin/bash\n/bin/false\n/bin/sync\n/"..., 49) = 49
+459476 13:49:35.498240 <... read resumed>"/bin/bash\n/bin/false\n/bin/sync\n/"..., 4096) = 49
+459476 13:49:35.498348 write(3, "/bin/bash\n/bin/false\n/bin/sync\n/"..., 49 <unfinished ...>
+459479 13:49:35.498437 close(0 <unfinished ...>
+459476 13:49:35.498505 <... write resumed>) = 49
+459479 13:49:35.498536 <... close resumed>) = 0
+459476 13:49:35.498570 read(7,  <unfinished ...>
+459479 13:49:35.498603 close(1 <unfinished ...>
+459476 13:49:35.498697 <... read resumed>"", 4096) = 0
+459479 13:49:35.498756 <... close resumed>) = 0
+459479 13:49:35.498826 close(2 <unfinished ...>
+459476 13:49:35.498865 close(7 <unfinished ...>
+459479 13:49:35.498898 <... close resumed>) = 0
+459476 13:49:35.498932 <... close resumed>) = 0
+459476 13:49:35.498995 close(3)         = 0
+459476 13:49:35.499230 openat(AT_FDCWD, "result.txt", O_RDONLY) = 3
+459479 13:49:35.499595 +++ exited with 0 +++
+459476 13:49:35.499633 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=459479, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+459476 13:49:35.499954 write(1, "--- first 5 lines of result.txt "..., 36) = 36
+459476 13:49:35.500103 read(3, "/bin/bash\n/bin/false\n/bin/sync\n/"..., 4096) = 49
+459476 13:49:35.500253 write(1, "/bin/bash\n", 10) = 10
+459476 13:49:35.500378 write(1, "/bin/false\n", 11) = 11
+459476 13:49:35.500500 write(1, "/bin/sync\n", 10) = 10
+459476 13:49:35.500626 write(1, "/usr/sbin/nologin\n", 18) = 18
+459476 13:49:35.500786 read(3, "", 4096) = 0
+459476 13:49:35.500895 close(3)         = 0
+459476 13:49:35.501005 write(1, "--- total lines: 4 ---\n", 23) = 23
+459476 13:49:35.501129 wait4(459477, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 459477
+459476 13:49:35.501309 write(1, "child 0 (cat, pid 459477): exit "..., 41) = 41
+459476 13:49:35.501439 wait4(459478, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 459478
+459476 13:49:35.501569 write(1, "child 1 (cut, pid 459478): exit "..., 41) = 41
+459476 13:49:35.501749 wait4(459479, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 459479
+459476 13:49:35.501887 write(1, "child 2 (sort, pid 459479): exit"..., 42) = 42
+459476 13:49:35.502457 +++ exited with 0 +++

@@ -1,0 +1,7 @@
+241569 +++ exited with 0 +++
+241568 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=241569, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+241570 +++ exited with 0 +++
+241568 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=241570, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+241571 +++ exited with 0 +++
+241568 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=241571, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+241568 +++ exited with 0 +++
